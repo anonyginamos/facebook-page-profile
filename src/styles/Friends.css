@@ -1,0 +1,57 @@
+/* src/styles/Friends.css */
+
+.friends-card {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.friends-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.friends-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.friends-count {
+  font-size: 14px;
+  color: #65676b;
+}
+
+.friends-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Displays 4 friends per row for a smaller size */
+  gap: 8px;
+}
+
+.friend-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.friend-pic {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.friend-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
