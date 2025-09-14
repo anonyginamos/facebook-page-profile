@@ -24,7 +24,7 @@
       { id: 5, name: "Lyka beton", pic: "/lyka.jpg" },
       { id: 6, name: "Adham Damada Sahibul", pic: "/adhamdamada.jpg" },
     ],
-    photos: ["/picture1.jpg", "/picture2.jpg", "picture3.jpg", "/picture4.jpg", "/picture5.jpg"],
+    photos: ["/picture5.jpg", "/picture2.jpg", "picture3.jpg", "/picture4.jpg"],
     posts: [
       {
         id: 1,
